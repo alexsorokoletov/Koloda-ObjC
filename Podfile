@@ -6,6 +6,6 @@ inhibit_all_warnings!
 
 target "Koloda-ObjC" do
 
-pod 'POP'
+pod 'pop'
 
 end
