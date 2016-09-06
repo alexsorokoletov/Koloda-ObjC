@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49423115D7471550F45B3B9F /* libPods-Koloda-ObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7118263EEACD2A89905893 /* libPods-Koloda-ObjC.a */; };
+		56ED0F52CFD679B47D3B41AD /* libPods-XamarinKoloda.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D9DF9388238B41D987B4A9 /* libPods-XamarinKoloda.a */; };
+		9D15DE13BCCD3A4C37095B7E /* libPods-Koloda-ObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD39E5DE8CA6F2C50D146F5 /* libPods-Koloda-ObjC.a */; };
 		E3BBBFD71B84B78B00E4AB12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BBBFD61B84B78B00E4AB12 /* main.m */; };
 		E3BBBFF11B84B78B00E4AB12 /* Koloda_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BBBFF01B84B78B00E4AB12 /* Koloda_ObjCTests.m */; };
 		E3BBC0091B84B7C400E4AB12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BBBFFB1B84B7C400E4AB12 /* AppDelegate.m */; };
@@ -20,6 +21,10 @@
 		E3BBC0101B84B7C400E4AB12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BBC0081B84B7C400E4AB12 /* ViewController.m */; };
 		E3BBC0131B84B8B000E4AB12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3BBC0111B84B8B000E4AB12 /* LaunchScreen.xib */; };
 		E3BBC0141B84B8B000E4AB12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BBC0121B84B8B000E4AB12 /* Main.storyboard */; };
+		FAF799CD1D7F8115002D7A6C /* XamarinKoloda.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF799CC1D7F8115002D7A6C /* XamarinKoloda.m */; };
+		FAF799D11D7F812B002D7A6C /* DraggableCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BBC0011B84B7C400E4AB12 /* DraggableCardView.m */; };
+		FAF799D21D7F812B002D7A6C /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BBC0031B84B7C400E4AB12 /* OverlayView.m */; };
+		FAF799D31D7F812B002D7A6C /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3BBC0051B84B7C400E4AB12 /* SwipeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		586F054390B198D14C7893FE /* Pods-Koloda-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koloda-ObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-Koloda-ObjC/Pods-Koloda-ObjC.release.xcconfig"; sourceTree = "<group>"; };
-		BA7118263EEACD2A89905893 /* libPods-Koloda-ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Koloda-ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70EEF6310E5EE9FAE9D3F4D5 /* Pods-XamarinKoloda.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XamarinKoloda.release.xcconfig"; path = "Pods/Target Support Files/Pods-XamarinKoloda/Pods-XamarinKoloda.release.xcconfig"; sourceTree = "<group>"; };
+		80D9DF9388238B41D987B4A9 /* libPods-XamarinKoloda.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XamarinKoloda.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9263266821D248AAF3E8C68D /* Pods-Koloda-ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koloda-ObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-Koloda-ObjC/Pods-Koloda-ObjC.release.xcconfig"; sourceTree = "<group>"; };
+		BE415146733C4884F6FA0BA8 /* Pods-XamarinKoloda.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XamarinKoloda.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XamarinKoloda/Pods-XamarinKoloda.debug.xcconfig"; sourceTree = "<group>"; };
+		CEB52B120A87B76BFA1488F3 /* Pods-Koloda-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koloda-ObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Koloda-ObjC/Pods-Koloda-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		E3BBBFD11B84B78B00E4AB12 /* Koloda-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Koloda-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BBBFD51B84B78B00E4AB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3BBBFD61B84B78B00E4AB12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -57,7 +65,10 @@
 		E3BBC0081B84B7C400E4AB12 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E3BBC0111B84B8B000E4AB12 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		E3BBC0121B84B8B000E4AB12 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		F5F70C0F02C7A100A9AC4B6B /* Pods-Koloda-ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Koloda-ObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Koloda-ObjC/Pods-Koloda-ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		FAF799C81D7F8115002D7A6C /* libXamarinKoloda.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXamarinKoloda.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF799CA1D7F8115002D7A6C /* XamarinKoloda.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XamarinKoloda.h; sourceTree = "<group>"; };
+		FAF799CC1D7F8115002D7A6C /* XamarinKoloda.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XamarinKoloda.m; sourceTree = "<group>"; };
+		FDD39E5DE8CA6F2C50D146F5 /* libPods-Koloda-ObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Koloda-ObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49423115D7471550F45B3B9F /* libPods-Koloda-ObjC.a in Frameworks */,
+				9D15DE13BCCD3A4C37095B7E /* libPods-Koloda-ObjC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,24 +87,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FAF799C51D7F8115002D7A6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56ED0F52CFD679B47D3B41AD /* libPods-XamarinKoloda.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		67B89A918625824EEA024AA0 /* Frameworks */ = {
+		174EA2DBC2DECCEBA3D83F2E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BA7118263EEACD2A89905893 /* libPods-Koloda-ObjC.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D7EFCB5947276986F54CCA1A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F5F70C0F02C7A100A9AC4B6B /* Pods-Koloda-ObjC.debug.xcconfig */,
-				586F054390B198D14C7893FE /* Pods-Koloda-ObjC.release.xcconfig */,
+				CEB52B120A87B76BFA1488F3 /* Pods-Koloda-ObjC.debug.xcconfig */,
+				9263266821D248AAF3E8C68D /* Pods-Koloda-ObjC.release.xcconfig */,
+				BE415146733C4884F6FA0BA8 /* Pods-XamarinKoloda.debug.xcconfig */,
+				70EEF6310E5EE9FAE9D3F4D5 /* Pods-XamarinKoloda.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE587AF882B4662D11C7C2AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDD39E5DE8CA6F2C50D146F5 /* libPods-Koloda-ObjC.a */,
+				80D9DF9388238B41D987B4A9 /* libPods-XamarinKoloda.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E3BBBFC81B84B78B00E4AB12 = {
@@ -101,9 +123,10 @@
 			children = (
 				E3BBBFD31B84B78B00E4AB12 /* Koloda-ObjC */,
 				E3BBBFED1B84B78B00E4AB12 /* Koloda-ObjCTests */,
+				FAF799C91D7F8115002D7A6C /* XamarinKoloda */,
 				E3BBBFD21B84B78B00E4AB12 /* Products */,
-				D7EFCB5947276986F54CCA1A /* Pods */,
-				67B89A918625824EEA024AA0 /* Frameworks */,
+				174EA2DBC2DECCEBA3D83F2E /* Pods */,
+				DE587AF882B4662D11C7C2AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +135,7 @@
 			children = (
 				E3BBBFD11B84B78B00E4AB12 /* Koloda-ObjC.app */,
 				E3BBBFEA1B84B78B00E4AB12 /* Koloda-ObjCTests.xctest */,
+				FAF799C81D7F8115002D7A6C /* libXamarinKoloda.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,6 +198,15 @@
 			path = KolodaView;
 			sourceTree = "<group>";
 		};
+		FAF799C91D7F8115002D7A6C /* XamarinKoloda */ = {
+			isa = PBXGroup;
+			children = (
+				FAF799CA1D7F8115002D7A6C /* XamarinKoloda.h */,
+				FAF799CC1D7F8115002D7A6C /* XamarinKoloda.m */,
+			);
+			path = XamarinKoloda;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,11 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3BBBFF41B84B78B00E4AB12 /* Build configuration list for PBXNativeTarget "Koloda-ObjC" */;
 			buildPhases = (
-				227EB9AF9E0A486FFCF8D0DA /* Check Pods Manifest.lock */,
+				28733F5D8A661933199C0AFC /* [CP] Check Pods Manifest.lock */,
 				E3BBBFCD1B84B78B00E4AB12 /* Sources */,
 				E3BBBFCE1B84B78B00E4AB12 /* Frameworks */,
 				E3BBBFCF1B84B78B00E4AB12 /* Resources */,
-				09C972C53C0D9472113FB309 /* Copy Pods Resources */,
+				1AA2A6ACB61ED5DDA9F2E67F /* [CP] Embed Pods Frameworks */,
+				9B97F8C9CE370A6C21C09368 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +248,25 @@
 			productReference = E3BBBFEA1B84B78B00E4AB12 /* Koloda-ObjCTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		FAF799C71D7F8115002D7A6C /* XamarinKoloda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF799D01D7F8115002D7A6C /* Build configuration list for PBXNativeTarget "XamarinKoloda" */;
+			buildPhases = (
+				34597532AFB5B3E9A5E41BA4 /* [CP] Check Pods Manifest.lock */,
+				FAF799C41D7F8115002D7A6C /* Sources */,
+				FAF799C51D7F8115002D7A6C /* Frameworks */,
+				FAF799D51D7F8192002D7A6C /* Copy pods resources */,
+				3C3302AD52E364148AE63B4A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XamarinKoloda;
+			productName = XamarinKoloda;
+			productReference = FAF799C81D7F8115002D7A6C /* libXamarinKoloda.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -229,6 +282,9 @@
 					E3BBBFE91B84B78B00E4AB12 = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = E3BBBFD01B84B78B00E4AB12;
+					};
+					FAF799C71D7F8115002D7A6C = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
@@ -247,6 +303,7 @@
 			targets = (
 				E3BBBFD01B84B78B00E4AB12 /* Koloda-ObjC */,
 				E3BBBFE91B84B78B00E4AB12 /* Koloda-ObjCTests */,
+				FAF799C71D7F8115002D7A6C /* XamarinKoloda */,
 			);
 		};
 /* End PBXProject section */
@@ -273,14 +330,74 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		09C972C53C0D9472113FB309 /* Copy Pods Resources */ = {
+		1AA2A6ACB61ED5DDA9F2E67F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Koloda-ObjC/Pods-Koloda-ObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28733F5D8A661933199C0AFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		34597532AFB5B3E9A5E41BA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C3302AD52E364148AE63B4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XamarinKoloda/Pods-XamarinKoloda-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B97F8C9CE370A6C21C09368 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,20 +405,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Koloda-ObjC/Pods-Koloda-ObjC-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		227EB9AF9E0A486FFCF8D0DA /* Check Pods Manifest.lock */ = {
+		FAF799D51D7F8192002D7A6C /* Copy pods resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "Copy pods resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Koloda-ObjC/Pods-Koloda-ObjC-resources.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -325,6 +441,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3BBBFF11B84B78B00E4AB12 /* Koloda_ObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF799C41D7F8115002D7A6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF799D11D7F812B002D7A6C /* DraggableCardView.m in Sources */,
+				FAF799D21D7F812B002D7A6C /* OverlayView.m in Sources */,
+				FAF799D31D7F812B002D7A6C /* SwipeView.m in Sources */,
+				FAF799CD1D7F8115002D7A6C /* XamarinKoloda.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +548,7 @@
 		};
 		E3BBBFF51B84B78B00E4AB12 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5F70C0F02C7A100A9AC4B6B /* Pods-Koloda-ObjC.debug.xcconfig */;
+			baseConfigurationReference = CEB52B120A87B76BFA1488F3 /* Pods-Koloda-ObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Koloda-ObjC/Info.plist";
@@ -432,7 +559,7 @@
 		};
 		E3BBBFF61B84B78B00E4AB12 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 586F054390B198D14C7893FE /* Pods-Koloda-ObjC.release.xcconfig */;
+			baseConfigurationReference = 9263266821D248AAF3E8C68D /* Pods-Koloda-ObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Koloda-ObjC/Info.plist";
@@ -475,6 +602,32 @@
 			};
 			name = Release;
 		};
+		FAF799CE1D7F8115002D7A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE415146733C4884F6FA0BA8 /* Pods-XamarinKoloda.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FAF799CF1D7F8115002D7A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70EEF6310E5EE9FAE9D3F4D5 /* Pods-XamarinKoloda.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -501,6 +654,15 @@
 			buildConfigurations = (
 				E3BBBFF81B84B78B00E4AB12 /* Debug */,
 				E3BBBFF91B84B78B00E4AB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF799D01D7F8115002D7A6C /* Build configuration list for PBXNativeTarget "XamarinKoloda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF799CE1D7F8115002D7A6C /* Debug */,
+				FAF799CF1D7F8115002D7A6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

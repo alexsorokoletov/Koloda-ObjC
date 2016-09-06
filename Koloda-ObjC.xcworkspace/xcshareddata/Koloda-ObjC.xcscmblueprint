@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C2428BCD1318629D287BDED7D3AB94439611CFC8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C236F49101FEF0B9C6750F246698A0470A4FFB40" : 0,
+    "C2428BCD1318629D287BDED7D3AB94439611CFC8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "249A9560-81ED-477B-BF6A-39769D379BCC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C236F49101FEF0B9C6750F246698A0470A4FFB40" : "..\/..",
+    "C2428BCD1318629D287BDED7D3AB94439611CFC8" : "Koloda-ObjC\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Koloda-ObjC",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Koloda-ObjC.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.eastbanctech.com:cfsa-oye\/cfsa-oye-mobile.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C236F49101FEF0B9C6750F246698A0470A4FFB40"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:alexsorokoletov\/Koloda-ObjC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C2428BCD1318629D287BDED7D3AB94439611CFC8"
+    }
+  ]
+}

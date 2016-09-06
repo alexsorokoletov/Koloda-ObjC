@@ -9,3 +9,9 @@ target "Koloda-ObjC" do
 pod 'pop'
 
 end
+
+target "XamarinKoloda" do
+
+pod 'pop'
+
+end
